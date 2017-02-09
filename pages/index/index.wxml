@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">2048</view>
+  <view class="">
+    <view class="score">得分:{{1223}}</view>
+    <view class="highestScore">最高分:{{2048}}</view>
+  </view>
+  <view class="game-cont">
+    <view class="number-cont">
+      <text>{{number[0][0]}}</text>
+    </view>
+    <view class="number-cont">{{number[0][1]}}</view>
+    <view class="number-cont">{{number[0][2]}}</view>
+    <view class="number-cont">{{number[0][3]}}</view>
+    <view class="number-cont">{{number[1][0]}}</view>
+    <view class="number-cont">{{number[1][1]}}</view>
+    <view class="number-cont">{{number[1][2]}}</view>
+    <view class="number-cont">{{number[1][3]}}</view>
+    <view class="number-cont">{{number[2][0]}}</view>
+    <view class="number-cont">{{number[2][1]}}</view>
+    <view class="number-cont">{{number[2][2]}}</view>
+    <view class="number-cont">{{number[2][3]}}</view>
+    <view class="number-cont">{{number[3][0]}}</view>
+    <view class="number-cont">{{number[3][1]}}</view>
+    <view class="number-cont">{{number[3][2]}}</view>
+    <view class="number-cont">{{number[3][3]}}</view>
+  </view>
+  <view class="control">
+    <view class="btn-up">
+      <button bindtap="up">↑</button>
+    </view>
+    <view class="btn-down">
+      <button bindtap="left">←</button>
+      <button bindtap="down">↓</button>
+      <button bindtap="right">→</button>
+    </view>
+  </view>
+</view>
